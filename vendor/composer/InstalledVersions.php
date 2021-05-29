@@ -25,33 +25,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '60603cf8f2e1caed696e45e6c517be7e2a6399c3',
     'name' => '__root__',
   ),
   'versions' => 
   array (
     '__root__' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
-    ),
-    'dealerdirect/phpcodesniffer-composer-installer' => 
-    array (
-      'pretty_version' => 'v0.7.1',
-      'version' => '0.7.1.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'fe390591e0241955f22eb9ba327d137e501c771c',
+      'reference' => '60603cf8f2e1caed696e45e6c517be7e2a6399c3',
     ),
     'phpcompatibility/php-compatibility' => 
     array (
