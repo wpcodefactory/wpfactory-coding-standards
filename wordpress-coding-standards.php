@@ -7,14 +7,16 @@
  * @since
  */
 
-$test = array(
+$test = [
 	'a' => 'asd',
 	'b' => 'asdad',
 	'c' => 'sd',
 	'd' => 'ssss d',
-	'e' => array( 'a', 'b', 12 ),
-);
+	'e' => [ 'a', 'b', 12 ],
+];
 
 if ( true === 'a' ) {
 	echo 'sd';
 }
+
+$new_arr = [ '1', 2 ];
