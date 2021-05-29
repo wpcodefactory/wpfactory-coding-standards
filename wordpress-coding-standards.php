@@ -1,6 +1,5 @@
 <?php
 /**
- * Asd.
  *
  * @package test
  * @version
