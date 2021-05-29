@@ -14,4 +14,4 @@ jobs:
       run: composer install --prefer-dist --no-progress --no-suggest
 
     - name: Run CS
-      run: vendor/bin/phpcs --standard=phpcs.xml .
+      run: sudo vendor/bin/phpcs --standard=phpcs.xml .
