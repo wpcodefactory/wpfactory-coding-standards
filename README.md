@@ -1,4 +1,4 @@
-# vscode-phpcs
+# WordPress coding standards
 
 ## VScode and PHPCS
 
