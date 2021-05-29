@@ -2,3 +2,4 @@
 /vendor/phpcompatibility
 /vendor/squizlabs
 /vendor/wp-coding-standards
+composer.lock
