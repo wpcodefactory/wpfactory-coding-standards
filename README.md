@@ -1,4 +1,4 @@
-# WordPress coding standards
+# WPFactory coding standards
 Brief tutorial for getting WordPress coding standards in your WordPress project, adapted to **WPFactory** projects
 
 ## Installation
