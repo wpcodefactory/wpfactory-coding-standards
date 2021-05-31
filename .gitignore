@@ -4,3 +4,4 @@
 /vendor/wp-coding-standards
 composer.lock
 .phpcs.cache
+.idea
