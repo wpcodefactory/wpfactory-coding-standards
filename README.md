@@ -2,7 +2,7 @@
 A brief tutorial for getting WordPress coding standards in your WordPress project, adapted to **WPFactory** needs
 
 ## Installation
--  Install [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) composer packages just like this repository is doing. Take a look at our **composer.json**
+-  Install [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [WordPress Coding Standards for PHP_CodeSniffer](https://github.com/WordPress/WordPress-Coding-Standards) composer packages just like this repository is doing. Take a look at our **composer.json**
 - Copy **phpcs.xml** to your project
 - Copy the contents from **.gitignore** to your project **.gitignore**
 
