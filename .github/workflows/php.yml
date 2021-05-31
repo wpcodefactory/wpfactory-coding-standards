@@ -1,4 +1,4 @@
-name: My GH Actions
+name: Coding standards report
 
 on: push
 
