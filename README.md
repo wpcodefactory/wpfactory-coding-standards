@@ -14,3 +14,19 @@ Brief tutorial for getting WordPress coding standards in your WordPress project,
 * Install [PHP Sniffer & Beautifier for VS Code](https://github.com/valeryan/vscode-phpsab)
 * Install [vscode-phpcs](https://github.com/ikappas/vscode-phpcs.git)
 * Copy the **.vscode** folder to your project
+
+## Sublime Text 4
+
+* Install [SublimeLinter](http://www.sublimelinter.com/)
+* Install [SublimeLinter-phpcs](https://github.com/SublimeLinter/SublimeLinter-phpcs)
+
+### Setup SublimeLinter
+Access **Preference > Package settings > SublimeLinter > Settings** and config the `linters` node like this:
+```json
+"linters": {
+    "phpcs": {
+        "disable": false,            
+        "SublimeLinter.linters.phpcs.args": "--standard='${folder}/phpcs.xml'",            
+        "executable": "${folder}/vendor/squizlabs/php_codesniffer/bin/phpcs.bat",
+    },
+```
