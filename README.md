@@ -50,4 +50,4 @@ NPP_SENDMSG NPPM_RELOADFILE 0 "$(FULL_CURRENT_PATH)"
    * Be happy
 4. You might want to enable **Settings > Preferences > Misc > Update silently**
 
-> :sweat_smile: **_Note:_** This setup does not allow to sniff the code, you can only reformat it on file saving.
+> :sweat_smile: **_Note:_** This setup does not allow to sniff the code, you can only reformat it.
