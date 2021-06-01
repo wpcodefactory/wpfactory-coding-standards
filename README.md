@@ -14,7 +14,7 @@ A brief tutorial for getting WordPress coding standards in your WordPress projec
 * Install [vscode-phpcs](https://github.com/ikappas/vscode-phpcs.git)
 * Copy the **.vscode** folder to your project
 
-> :sunglasses: **_Note:_** This setup allows to fix code errors automatically on file saving with `phpcbf`
+> :sunglasses: **_Note:_** This setup allows to sniff the code and to reformat it automatically on file saving with the `phpcbf` script
 
 ### :heavy_check_mark: Sublime Text 4
 
