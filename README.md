@@ -44,4 +44,4 @@ Access **Preference > Package settings > SublimeLinter > Settings** and config t
 $(CURRENT_DIRECTORY)/vendor/squizlabs/php_codesniffer/bin/phpcbf.bat --standard=phpcs.xml $(FULL_CURRENT_PATH)
 NPP_SENDMSG NPPM_RELOADFILE 0 "$(FULL_CURRENT_PATH)"
 ```
-2. Follow this [tiny tutorial](https://superuser.com/a/1295528) about how to create a hotkey that will call the previous command
+2. Follow this [tiny tutorial](https://superuser.com/a/1295528) about creating a hotkey that will call the previous command. It can be CTRL + S or any other you want
