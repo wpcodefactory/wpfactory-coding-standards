@@ -39,7 +39,7 @@ Access **Preference > Package settings > SublimeLinter > Settings** and config t
 
 * Install [NppExec](https://github.com/d0vgan/nppexec) plugin
 * Setup NppExec
-1. Access **Plugins > NppExec > Execute**, create this command and save:
+1. Access **Plugins > NppExec > Execute**, create this command and save it:
 ```
 $(CURRENT_DIRECTORY)/vendor/squizlabs/php_codesniffer/bin/phpcbf.bat --standard=phpcs.xml $(FULL_CURRENT_PATH)
 NPP_SENDMSG NPPM_RELOADFILE 0 "$(FULL_CURRENT_PATH)"
