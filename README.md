@@ -14,14 +14,14 @@ A brief tutorial for getting WordPress coding standards in your WordPress projec
 * Install [vscode-phpcs](https://github.com/ikappas/vscode-phpcs.git)
 * Copy the **.vscode** folder to your project
 
-> **_Note:_** This setup allows to fix code errors automatically on file saving with `phpcbf`
+> :sunglasses: **_Note:_** This setup allows to fix code errors automatically on file saving with `phpcbf`
 
 ### :heavy_check_mark: Sublime Text 4
 
 * Install [SublimeLinter](http://www.sublimelinter.com/)
 * Install [SublimeLinter-phpcs](https://github.com/SublimeLinter/SublimeLinter-phpcs)
+* Setup SublimeLinter
 
-#### Setup SublimeLinter
 Access **Preference > Package settings > SublimeLinter > Settings** and config the `linters` node like this:
 
 ```json
@@ -33,8 +33,15 @@ Access **Preference > Package settings > SublimeLinter > Settings** and config t
     },
 ```
 
-> **_Note:_** This setup does not allow to fix code errors automatically on file saving yet
+> :sweat_smile: **_Note:_** This setup does not allow to fix code errors automatically on file saving yet
 
 ### :heavy_check_mark: Notepad ++
 
 * Install [NppExec](https://github.com/d0vgan/nppexec)
+* Setup NppExec
+1. Access **Plugins > NppExec > Execute**, create this command and save:
+```
+$(CURRENT_DIRECTORY)/vendor/squizlabs/php_codesniffer/bin/phpcbf.bat --standard=phpcs.xml $(FULL_CURRENT_PATH)
+NPP_SENDMSG NPPM_RELOADFILE 0 "$(FULL_CURRENT_PATH)"
+```
+2. Follow this [tiny tutorial](https://superuser.com/a/1295528) about how to create a hotkey that will call the previous command
