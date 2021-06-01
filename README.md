@@ -44,5 +44,8 @@ Access **Preference > Package settings > SublimeLinter > Settings** and config t
 $(CURRENT_DIRECTORY)/vendor/squizlabs/php_codesniffer/bin/phpcbf.bat --standard=phpcs.xml $(FULL_CURRENT_PATH)
 NPP_SENDMSG NPPM_RELOADFILE 0 "$(FULL_CURRENT_PATH)"
 ```
-2. Follow this [tiny tutorial](https://superuser.com/a/1295528) about creating a hotkey that will call the previous command. It can be CTRL + S or any other you want
-3. You might want to enable **Settings > Preferences > Misc > Update silently**
+2. Access **Settings > Shortcuts mapper > Slugin commands**
+   * Find the saved command looking for the last line of NppExec.dll
+   * Assign a shortcut to it (Probably Alt + Shift + F)
+   * Be happy
+4. You might want to enable **Settings > Preferences > Misc > Update silently**
