@@ -33,7 +33,7 @@ Access **Preference > Package settings > SublimeLinter > Settings** and config t
     },
 ```
 
-> :sweat_smile: **_Note:_** This setup does not allow to fix code errors automatically on file saving yet
+> :sweat_smile: **_Note:_** This setup does not allow to fix code errors automatically on file saving yet, you can only sniff the code.
 
 ### :heavy_check_mark: Notepad ++
 
@@ -49,3 +49,5 @@ NPP_SENDMSG NPPM_RELOADFILE 0 "$(FULL_CURRENT_PATH)"
    * Assign a shortcut to it (Probably Alt + Shift + F)
    * Be happy
 4. You might want to enable **Settings > Preferences > Misc > Update silently**
+
+> :sweat_smile: **_Note:_** This setup does not allow to sniff the code, you can only reformat it on file saving.
