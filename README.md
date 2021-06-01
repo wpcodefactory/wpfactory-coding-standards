@@ -45,3 +45,4 @@ $(CURRENT_DIRECTORY)/vendor/squizlabs/php_codesniffer/bin/phpcbf.bat --standard=
 NPP_SENDMSG NPPM_RELOADFILE 0 "$(FULL_CURRENT_PATH)"
 ```
 2. Follow this [tiny tutorial](https://superuser.com/a/1295528) about creating a hotkey that will call the previous command. It can be CTRL + S or any other you want
+3. You might want to enable **Settings > Preferences > Misc > Update silently**
