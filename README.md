@@ -10,16 +10,16 @@ A brief tutorial for getting WordPress coding standards in your WordPress projec
 - Copy **.github/workflows/php.yml** to you project if you want to get coding standards reports from github on each push
 
 ### :heavy_check_mark: Visual Studio Code 
-* Install [PHP Sniffer & Beautifier for VS Code](https://github.com/valeryan/vscode-phpsab)
-* Install [vscode-phpcs](https://github.com/ikappas/vscode-phpcs.git)
+* Install [PHP Sniffer & Beautifier for VS Code](https://github.com/valeryan/vscode-phpsab) extension
+* Install [vscode-phpcs](https://github.com/ikappas/vscode-phpcs.git) extension
 * Copy the **.vscode** folder to your project
 
 > :sunglasses: **_Note:_** This setup allows to sniff the code and to reformat it automatically on file saving with the `phpcbf` script
 
 ### :heavy_check_mark: Sublime Text 4
 
-* Install [SublimeLinter](http://www.sublimelinter.com/)
-* Install [SublimeLinter-phpcs](https://github.com/SublimeLinter/SublimeLinter-phpcs)
+* Install [SublimeLinter](http://www.sublimelinter.com/) package
+* Install [SublimeLinter-phpcs](https://github.com/SublimeLinter/SublimeLinter-phpcs) package
 * Setup SublimeLinter
 
 Access **Preference > Package settings > SublimeLinter > Settings** and config the `linters` node like this:
@@ -37,7 +37,7 @@ Access **Preference > Package settings > SublimeLinter > Settings** and config t
 
 ### :heavy_check_mark: Notepad ++
 
-* Install [NppExec](https://github.com/d0vgan/nppexec)
+* Install [NppExec](https://github.com/d0vgan/nppexec) plugin
 * Setup NppExec
 1. Access **Plugins > NppExec > Execute**, create this command and save:
 ```
