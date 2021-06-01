@@ -44,7 +44,7 @@ Access **Preference > Package settings > SublimeLinter > Settings** and config t
 $(CURRENT_DIRECTORY)/vendor/squizlabs/php_codesniffer/bin/phpcbf.bat --standard=phpcs.xml $(FULL_CURRENT_PATH)
 NPP_SENDMSG NPPM_RELOADFILE 0 "$(FULL_CURRENT_PATH)"
 ```
-2. Access **Settings > Shortcuts mapper > Slugin commands**
+2. Access **Settings > Shortcuts mapper > Plugin commands**
    * Find the saved command looking for the last line of NppExec.dll
    * Assign a shortcut to it (Probably Alt + Shift + F)
    * Be happy
