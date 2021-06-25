@@ -1,6 +1,5 @@
 {    
-    "phpsab.snifferShowSources": true,
-    "phpsab.standard": "WordPress",
+    "phpsab.snifferShowSources": true,    
     "phpsab.allowedAutoRulesets": [
         ".phpcs.xml",
         ".phpcs.xml.dist",
