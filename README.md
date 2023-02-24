@@ -11,7 +11,6 @@ A brief tutorial for getting WordPress coding standards in your WordPress projec
 
 ### :heavy_check_mark: Visual Studio Code 
 * Install [PHP Sniffer & Beautifier for VS Code](https://github.com/valeryan/vscode-phpsab) extension
-* Install [vscode-phpcs](https://github.com/ikappas/vscode-phpcs.git) extension
 * Copy the **.vscode** folder to your project
 
 > :sunglasses: **_Note:_** This setup allows to sniff the code and to reformat it automatically on file saving
