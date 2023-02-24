@@ -1,6 +1,5 @@
 {
-  "phpsab.snifferShowSources": true,
-  "phpsab.fixerEnable": true,
+  "editor.formatOnSave": true,
   "phpsab.allowedAutoRulesets": [
     ".phpcs.xml",
     ".phpcs.xml.dist",
@@ -9,11 +8,11 @@
     "phpcs.ruleset.xml",
     "ruleset.xml"
   ],
+  "phpsab.composerJsonPath": "composer.json",
   "phpsab.executablePathCBF": "./vendor/bin/phpcbf.bat",
-  "phpcs.enable": true,
-  "phpcs.standard": "WordPress",
-  "phpcs.executablePath": "./vendor/bin/phpcs",
-  "phpcs.showWarnings": true,
-  "phpcs.composerJsonPath": "composer.json",
-  "editor.formatOnSave": true
+  "phpsab.executablePathCS": "./vendor/bin/phpcs.bat",
+  "phpsab.fixerEnable": true,
+  "phpsab.standard": "WordPress",
+  "phpsab.snifferEnable": true,
+  "phpsab.snifferShowSources": true
 }
