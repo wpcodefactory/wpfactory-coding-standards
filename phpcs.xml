@@ -9,8 +9,15 @@
 	<exclude-pattern>node_modues/*</exclude-pattern>
 	<exclude-pattern>\.idea/*</exclude-pattern>
 	<exclude-pattern>assets/*</exclude-pattern>
+    
+    <rule ref="WordPress.Arrays.ArrayDeclarationSpacing">
+        <properties>
+            <property name="allow_single_item_single_line_associative_arrays" value="true"/>
+        </properties>
+    </rule>
 
 	<rule ref="WordPress">
+    
 		<!-- Classes with "class-"" prefix -->
 		<!--<exclude name="WordPress.Files.FileName.InvalidClassFileName"/>-->
 		<!--<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>-->
@@ -22,7 +29,7 @@
 		<exclude name="Generic.Commenting.DocComment.ShortNotCapital"/>
 
 		<!-- Inline comments must end in full-stops, exclamation marks, or question marks -->
-		<!--<exclude name="Squiz.Commenting.InlineComment.InvalidEndChar"/>-->
+		<exclude name="Squiz.Commenting.InlineComment.InvalidEndChar"/>
 
 		<!-- Missing parameter comment -->
 		<exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
@@ -45,4 +52,5 @@
 		<!-- End of line character is invalid; expected "\n" but found "\r\n" -->
 		<exclude name="Generic.Files.LineEndings.InvalidEOLChar"/>
 	</rule>
+    
 </ruleset>

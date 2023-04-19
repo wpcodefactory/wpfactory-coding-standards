@@ -6,4 +6,4 @@
  * You should be able to fix most of them automatically by simply saving the file.
  */
 
-$test_array = array( 'a', 'b', 'c' );
+$test_array = array( 'a', 'b', 'c', 's', '4', '555', '454545', 'asdsd'=>'sdsda' );
