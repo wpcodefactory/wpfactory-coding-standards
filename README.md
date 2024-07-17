@@ -1,5 +1,5 @@
 # WPFactory coding standards
-A brief tutorial for getting WordPress coding standards in your WordPress project, adapted to **WPFactory** needs
+A brief tutorial for getting [WordPress coding standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/) in your WordPress project, adapted to **WPFactory** needs.
 
 ## PHP coding standards installation
 -  Install [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [WordPress Coding Standards for PHP_CodeSniffer](https://github.com/WordPress/WordPress-Coding-Standards) composer packages, with `composer install` or `composer update`. Take a look at our **composer.json**
