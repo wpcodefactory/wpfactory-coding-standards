@@ -6,6 +6,12 @@ A brief tutorial for getting [WordPress coding standards](https://developer.word
 - Copy **phpcs.xml** to your project
 - Copy the contents from **.gitignore** to your project **.gitignore**
 
+> If for some reason you get the error "PHPCSUtils" does not exist" please change these libraries on composer.json file: 
+```json
+    "squizlabs/php_codesniffer": "^3.7.1",
+    "wp-coding-standards/wpcs": "^2.3.0"
+```
+
 #### Optional
 - Copy **.github/workflows/php.yml** to you project if you want to get coding standards reports from github on each push
 
